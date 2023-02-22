@@ -1,0 +1,13 @@
+# Fork of MySQL repository
+mysql-server
+
+# Build files, data and libraries
+build-debug
+build-release
+boost
+data
+debug-build
+mtr-build
+
+# IDE settings
+.vscode
