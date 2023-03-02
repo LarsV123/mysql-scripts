@@ -8,6 +8,7 @@ boost
 data
 debug-build
 mtr-build
+release-build
 
 # IDE settings
 .vscode
