@@ -27,7 +27,7 @@ cmake ../mysql-server/ \
   -DMYSQL_MAINTAINER_MODE=1 \
   -DWITH_ZLIB=bundled \
   -DWITH_BOOST=~/mysql/boost \
-  -DWITH_ASAN=0 \
+  -DWITH_ASAN=1 \
   -DWITH_NDBCLUSTER_STORAGE_ENGINE=0 \
   -DCMAKE_BUILD_TYPE=Debug \
   -DWITH_ICU=system \
