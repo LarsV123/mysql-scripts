@@ -31,9 +31,9 @@ cmake ../mysql-server/ \
   -DWITH_NDBCLUSTER_STORAGE_ENGINE=0 \
   -DCMAKE_BUILD_TYPE=Debug \
   -DWITH_ICU=system \
+  -DENABLE_GPROF=1 \
   -GNinja
 
-# -DCMAKE_PREFIX_PATH=/usr/include/ \
 echo "Running ninja"
 # Use -j4 to build with 4 threads, more threads require more RAM (> 16 GB)
 ninja -j4
