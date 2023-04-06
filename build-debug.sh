@@ -31,7 +31,6 @@ cmake ../mysql-server/ \
   -DWITH_NDBCLUSTER_STORAGE_ENGINE=0 \
   -DCMAKE_BUILD_TYPE=Debug \
   -DWITH_ICU=system \
-  -DENABLE_GPROF=1 \
   -GNinja
 
 echo "Running ninja"
