@@ -5,6 +5,8 @@
 
 # This script assumes that you have a folder ~/mysql/boost
 # with the boost libraries in it.
+# It also assumes that the folder ~/mysql/data exists.
+
 BUILD_DIR=~/mysql/debug-build
 
 # Exit on error
