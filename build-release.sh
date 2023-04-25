@@ -25,6 +25,7 @@ cmake ../mysql-server/ \
   -DWITH_AUTHENTICATION_FIDO=0 \
   -DWITH_NDB=0 \
   -DWITH_ZLIB=bundled \
+  -DDOWNLOAD_BOOST=1 \
   -DWITH_BOOST=~/mysql/boost \
   -DWITH_ASAN=0 \
   -DWITH_NDBCLUSTER_STORAGE_ENGINE=0 \
