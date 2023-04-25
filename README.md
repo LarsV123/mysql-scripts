@@ -10,7 +10,7 @@ sudo apt install lld lldb ddd xterm libjson-perl doxygen plantuml dia libcanberr
 
 # Other dependencies
 sudo apt install libssl-dev libncurses-dev libldap-dev libsasl2-dev libudev-dev
-sudo apt install libzstd-dev libedit-dev liblz4-dev libcurl4-openssl-dev protobuf-compiler
+sudo apt install libzstd-dev libedit-dev liblz4-dev libcurl4-openssl-dev protobuf-compiler dpkg-dev
 
 # Delete old build directory if needed
 rm -Rf mtr-build
