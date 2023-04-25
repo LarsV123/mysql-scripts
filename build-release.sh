@@ -3,8 +3,8 @@
 # Script for building MySQL such that it can be run with
 # ./release-build/runtime_output_directory/mysqld --datadir=./data --initialize-insecure
 
-# This script assumes that you have a folder ~/mysql/boost
-# with the boost libraries in it.
+# The script assumes that the project is placed at ~/mysql,
+# with the mysql-server folder at ~/mysql/mysql-server
 BUILD_DIR=~/mysql/release-build
 DATA_DIR=~/mysql/data
 
